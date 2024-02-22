@@ -5,7 +5,7 @@ import { TbGridDots } from 'react-icons/tb';
 const HomeHeader = () => {
   return (
     <header className='flex justify-end p-5 text-sm'>
-        <div className="flex space-x-5 items-center">
+        <div className="flex space-x-5 tracking-tight items-center">
             <Link href={"https://mail.google.com"} className='hover:underline'>
                 Gmail
             </Link>
