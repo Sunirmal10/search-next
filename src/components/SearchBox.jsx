@@ -10,6 +10,7 @@ const SearchBox = () => {
   const router = useRouter();
   const searchTerm = searchParams.get('searchTerm');
   const [term, setTerm] = useState(searchTerm || '');
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!term.trim()) return;
@@ -23,15 +24,16 @@ const SearchBox = () => {
     >
       <input
         type='text'
-        className='w-full pl-2 focus:outline-none'
+        className='flex-grow pl-2 focus:outline-none'
         value={term}
         onChange={(e) => setTerm(e.target.value)}
       />
-      <RxCross2
-        className='text-sm sm:text-2xl text-gray-500 cursor-pointer sm:mr-2'
+      {term !== "" && <RxCross2
+        className='text-sm sm:text-xl text-gray-500 cursor-pointer w-8 pr-2 border-r-[1px]'
         onClick={() => setTerm('')}
       />
-      <BsFillMicFill className='hidden sm:inline-flex text-4xl text-blue-500 border-l-[1px] cursor-pointer border-gray-300 mr-3 pl-4' />
+      }
+      <BsFillMicFill className='hidden sm:inline-flex text-3xl text-blue-500 cursor-pointer border-gray-300 mr-3 pl-3' />
       <IoMdSearch
         className='text-2xl hidden sm:inline-flex font-bold text-blue-500 cursor-pointer'
         onClick={handleSubmit}
