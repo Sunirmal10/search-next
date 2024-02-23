@@ -7,11 +7,12 @@ import { TbGridDots } from 'react-icons/tb';
 import SearchHeaderOptions from './SearchHeaderOptions';
 
 function SearchHeaderFallback() {
-  return <>Loading...</>
+  return <div>Loading...</div>
 }
 
 const SearchHeader = () => {
   return (
+        <Suspense fallback={<SearchHeaderFallback/>}>
     <header className='sticky top-0 bg-white p-0'>
       <div className='flex w-full px-2 sm:px-5 gap-1 pb-5 pt-[15px] items-center justify-between tracking-tight text-sm '>
         <Link href='/'className="scale-75 sm:scale-90 p-0">
@@ -37,10 +38,9 @@ const SearchHeader = () => {
           Sign in
         </button>
       </div>
-      <Suspense fallback={<SearchHeaderFallback/>}>
       <SearchHeaderOptions />
-      </Suspense>
     </header>
+      </Suspense>
   )
 }
 
