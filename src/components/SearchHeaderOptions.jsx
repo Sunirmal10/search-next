@@ -1,5 +1,4 @@
 'use client';
-
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { AiOutlineCamera, AiOutlineSearch } from 'react-icons/ai';
 import { GoChevronLeft } from "react-icons/go";
