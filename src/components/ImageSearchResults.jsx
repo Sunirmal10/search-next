@@ -31,7 +31,7 @@ const ImageSearchResults = ({ results }) => {
           </div>
         ))}
       </div>
-      <div className='ml-16'>
+      <div className="ml-[1.75rem]">
         <PaginationButtons />
       </div>
     </div>
