@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Search Engine App - Next.js Project
 
-## Getting Started
+Welcome to the Search Engine app project! This project is a search engine app built using Next.js and styled with Tailwind CSS based on the Google Search Engine UI. It utilizes Google's Programmable Search Engine API to fetch search results and display them in a user-friendly interface.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Page**: The home page allows users to perform a normal search by entering a query. Additionally, users can click the "I'm feeling lucky" button to generate a random search word.
+- **Searched Results Page**: Displays topics (URLs/info) and images related to the entered query.
+- **Pagination**: Users can navigate through multiple pages of search results.
+- **Deployment**: The project is deployed on Vercel.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: A React framework for building server-side rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for quickly building custom designs.
+- **Google Programmable Search Engine API**: Utilized for fetching search results.
+- **Vercel**: Platform for deploying web projects with ease.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Setup
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd <folder_name>`
+3. Install dependencies: `npm install`
+4. Obtain API KEY the and cx value (CONTEXT KEY) from Google Programmable Search Engine API and set it in the `.env.local` file at the root directory.
+5. Run the development server: `npm run dev`
+6. Open your browser and visit `http://localhost:3000` to view the app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The project is deployed on Vercel. Any changes pushed to the main branch will automatically trigger a deployment.
 
-## Deploy on Vercel
+- **Live Demo**: (https://searchapp-next.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are welcome! If you'd like to contribute to this project, feel free to open an issue or submit a pull request.
+
+## Credits
+
+This project was created by Sunirmal Das.
+
+- GitHub: (https://github.com/Sunirmal10)
+
+## License
+
+This project is licensed under the MIT License.
+
+Thank you for using the Search Engine App based on the Google Search Engine UI! If you have any questions or feedback, feel free to contact me by email at sunirmald1996@gmail.
+
+My portfolio website- (https://sunirmaldasportfolio.netlify.app)
