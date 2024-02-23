@@ -19,7 +19,7 @@ export default function SearchHeaderOptions() {
     );
   };
   return (
-    <div className='flex flex-wrap scale-75 sm:scale-100 space-x-2 select-none border-b sm:pb-4 justify-center md:justify-start  lg:justify-start lg:pl-48 text-gray-700 text-sm'>
+    <div className='flex flex-wrap scale-75 sm:scale-100 space-x-2 select-none border-b pb-2 sm:pb-4 justify-center md:justify-start lg:justify-start lg:pl-48 text-gray-700 text-sm'>
       { showAllTab && <div onClick={()=>selectTab("All")} className={`flex items-center justify-center space-x-1 text-xs hover:bg-gray-200 rounded-3xl active:text-blue-50 cursor-pointer px-3 py-[10px] text-black ${pathname === '/search/web' && '!text-blue-600 !border-0 !bg-blue-100'}`}>
        <GoChevronLeft className="text-lg m-0 p-0 font-semibold"/>
         <p className="!ml-0">All</p>
