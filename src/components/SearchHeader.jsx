@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 import SearchBox from './SearchBox';
 import { RiSettings3Line } from 'react-icons/ri';
 import { TbGridDots } from 'react-icons/tb';
 import SearchHeaderOptions from './SearchHeaderOptions';
+
+function SearchHeaderFallback() {
+  return <>Loading...</>
+}
 
 const SearchHeader = () => {
   return (
@@ -33,7 +37,9 @@ const SearchHeader = () => {
           Sign in
         </button>
       </div>
+      <Suspense fallback={<SearchHeaderFallback/>}>
       <SearchHeaderOptions />
+      </Suspense>
     </header>
   )
 }

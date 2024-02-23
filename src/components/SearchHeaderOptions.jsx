@@ -4,7 +4,7 @@ import { AiOutlineCamera, AiOutlineSearch } from 'react-icons/ai';
 import { GoChevronLeft } from "react-icons/go";
 import { useState } from 'react';
 
-export default function SearchHeaderOptions() {
+const SearchHeaderOptions = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const searchTerm = searchParams.get('searchTerm');
@@ -40,3 +40,5 @@ export default function SearchHeaderOptions() {
     </div>
   );
 }
+
+export default SearchHeaderOptions

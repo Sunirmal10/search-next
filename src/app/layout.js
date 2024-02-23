@@ -2,7 +2,7 @@ import "./globals.css";
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: "Search Engine App",
+  title: "Search Engine App | Nextjs 14",
   description: "A modern Search Engine based on Google UI using Nextjs 14 and Tailwind CSS",
 };
 
