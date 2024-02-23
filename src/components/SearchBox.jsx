@@ -20,16 +20,16 @@ const SearchBox = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className='flex border border-slate-100 rounded-full gap-2 shadow-lg  px-3 sm:px-4 py-1 w-auto md:w-[42rem] sm:ml-10 sm:mr-5 flex-grow max-w-3xl items-center'
+      className='flex border border-slate-100 rounded-full gap-2 shadow-lg px-3 sm:px-4 py-1 lg:w-[34rem] sm:ml-10 sm:mr-5 flex-grow max-w-3xl items-center'
     >
       <input
         type='text'
-        className='flex-grow pl-2 focus:outline-none'
+        className='flex pl-2 flex-grow focus:outline-none'
         value={term}
         onChange={(e) => setTerm(e.target.value)}
       />
       {term !== "" && <RxCross2
-        className='text-sm sm:text-xl text-gray-500 cursor-pointer w-8 pr-2 border-r-[1px]'
+        className='text-sm sm:text-xl text-gray-500 cursor-pointer sm:w-8 md:pr-2 border-r-[1px]'
         onClick={() => setTerm('')}
       />
       }

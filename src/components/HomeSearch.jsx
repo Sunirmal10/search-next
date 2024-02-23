@@ -33,7 +33,7 @@ export default function HomeSearch() {
         <IoMdSearch className='text-2xl text-gray-500 my-1 mr-3'/>
         <input
           type='text'
-          className='flex-grow text-zinc-400 focus:text-slate-800 tracking-tighter focus:outline-none'
+          className='flex-grow text-zinc-400 focus:text-slate-800 w-36 sm:w-auto text-xs sm:text-sm tracking-tighter focus:outline-none'
           onChange={(e) => setInput(e.target.value)}
           placeholder="Search a topic or type a URL"
         />
