@@ -43,10 +43,6 @@ This project was created by Sunirmal Das.
 
 - GitHub: (https://github.com/Sunirmal10)
 
-## License
-
-This project is licensed under the MIT License.
-
 Thank you for using the Search Engine App based on the Google Search Engine UI! If you have any questions or feedback, feel free to contact me by email at sunirmald1996@gmail.
 
 My portfolio website- (https://sunirmaldasportfolio.netlify.app)
