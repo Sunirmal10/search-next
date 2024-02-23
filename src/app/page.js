@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
      <HomeHeader/>
-      <div className='flex flex-col items-center mt-24'>
+      <div className='flex flex-col items-center mt-10'>
         <Image
           src='https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png'
           alt='Google Logo'
@@ -14,6 +14,7 @@ export default function Home() {
           height={100}
           priority
           style={{ width: 'auto' }}
+          className=" scale-75 sm:scale-100"
         />
         <HomeSearch />
       </div>

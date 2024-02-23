@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Search Engine App",
-  description: "A modern Search Engine based on Google UI",
+  description: "A modern Search Engine based on Google UI using Nextjs 14 and Tailwind CSS",
 };
 
 export default function RootLayout({ children }) {

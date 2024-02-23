@@ -28,7 +28,7 @@ export default function HomeSearch() {
     <>
       <form
         onSubmit={handleSubmit}
-        className='flex w-full mt-5 mx-auto max-w-[80%] border border-zinc-200 px-5 py-3 rounded-full shadow-md transition-shadow sm:max-w-xl lg:max-w-2xl'
+        className='flex w-full mt-3 sm:mt-5 mx-auto max-w-[80%] border border-zinc-200 px-5 py-2 sm:py-3 rounded-full shadow-md transition-shadow sm:max-w-xl h-full lg:max-w-2xl'
       >
         <IoMdSearch className='text-2xl text-gray-500 my-1 mr-3'/>
         <input
@@ -39,7 +39,7 @@ export default function HomeSearch() {
         />
         <BsFillMicFill className='text-lg text-blue-500  hover:cursor-pointer mt-2' />
       </form>
-      <div className='flex flex-col space-y-2 sm:space-y-0 justify-center sm:flex-row mt-8 sm:space-x-4 font-medium'>
+      <div className='flex space-y-2 sm:space-y-0 justify-center flex-row mt-8 sm:space-x-4 scale-75 sm:scale-100 font-medium'>
         <button
           className='bg-[#f8f9fa] rounded-lg text-sm text-gray-500 hover:ring-gray-200 focus:outline-none hover:bg-gray-200 active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow'
           onClick={handleSubmit}
@@ -48,7 +48,7 @@ export default function HomeSearch() {
         </button>
         <button
         disabled={randomSearchLoading}
-          className='bg-[#f8f9fa] rounded-lg text-sm text-gray-500 hover:ring-gray-200 focus:outline-none hover:bg-gray-200 active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow disabled:opacity-80 disabled:shadow-sm'
+          className='bg-[#f8f9fa] rounded-lg text-sm !mt-0 text-gray-500 hover:ring-gray-200 focus:outline-none hover:bg-gray-200 active:ring-gray-300 hover:shadow-md w-36 h-10 transition-shadow disabled:opacity-80 disabled:shadow-sm'
           onClick={randomSearch}
         >
           {randomSearchLoading ? 'Loading...' : 'I am feeling lucky'}

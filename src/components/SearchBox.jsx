@@ -19,7 +19,7 @@ const SearchBox = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className='flex border border-slate-100 rounded-full gap-2 shadow-lg px-4 py-1 absolute top-4 w-[42rem] ml-10 mr-5 flex-grow max-w-3xl items-center'
+      className='flex border border-slate-100 rounded-full gap-2 shadow-lg  px-3 sm:px-4 py-1 w-auto md:w-[42rem] sm:ml-10 sm:mr-5 flex-grow max-w-3xl items-center'
     >
       <input
         type='text'
@@ -28,10 +28,10 @@ const SearchBox = () => {
         onChange={(e) => setTerm(e.target.value)}
       />
       <RxCross2
-        className='text-2xl text-gray-500 cursor-pointer sm:mr-2'
+        className='text-sm sm:text-2xl text-gray-500 cursor-pointer sm:mr-2'
         onClick={() => setTerm('')}
       />
-      <BsFillMicFill className='hidden sm:inline-flex text-4xl text-blue-500 border-l-2 cursor-pointer  border-gray-300 mr-3 pl-4' />
+      <BsFillMicFill className='hidden sm:inline-flex text-4xl text-blue-500 border-l-[1px] cursor-pointer border-gray-300 mr-3 pl-4' />
       <IoMdSearch
         className='text-2xl hidden sm:inline-flex font-bold text-blue-500 cursor-pointer'
         onClick={handleSubmit}
