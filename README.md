@@ -4,7 +4,7 @@ Welcome to the Search Engine app project! This project is a search engine app bu
 
 ## Features
 
-- **Home Page**: The home page allows users to perform a normal search by entering a query. Additionally, users can click the "I'm feeling lucky" button to generate a random search word.
+- **Home Page**: The home page allows users to perform a searchs by entering a query. Additionally, users can click the "I'm feeling lucky" button to generate a random search word.
 - **Searched Results Page**: Displays topics (URLs/info) and images related to the entered query.
 - **Pagination**: Users can navigate through multiple pages of search results.
 - **Deployment**: The project is deployed on Vercel.
@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 1. Clone the repository: `git clone <repository_url>`
 2. Navigate to the project directory: `cd <folder_name>`
 3. Install dependencies: `npm install`
-4. Obtain API KEY the and cx value (CONTEXT KEY) from Google Programmable Search Engine API and set it in the `.env.local` file at the root directory.
+4. Obtain the API KEY and the cx value (CONTEXT KEY) from Google Programmable Search Engine API and set it in the `.env.local` file at the root directory.
 5. Run the development server: `npm run dev`
 6. Open your browser and visit `http://localhost:3000` to view the app.
 
