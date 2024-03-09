@@ -16,6 +16,13 @@ Welcome to the Search Engine app project! This project is a search engine app bu
 - **Google Programmable Search Engine API**: Utilized for fetching search results.
 - **Vercel**: Platform for deploying web projects with ease.
 
+## Preview
+
+![google-search-next](https://github.com/Sunirmal10/search-next/assets/119140881/0ec5e0e1-2bbf-47e7-a7bc-58c2197000cd)
+![google-search-app-2](https://github.com/Sunirmal10/search-next/assets/119140881/6c594c44-7b80-4603-9052-5e2fc699060a)
+![google-search-next-3](https://github.com/Sunirmal10/search-next/assets/119140881/6b93bdd6-38b9-496f-a591-dc1ba4b49730)
+
+
 ## Setup
 
 To run this project locally, follow these steps:
