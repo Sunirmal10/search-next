@@ -1,10 +1,9 @@
-# Search Engine App - Next.js Project
-
+## Google Search Next - A Search Engine App
 Welcome to the Search Engine app project! This project is a search engine app built using Next.js and styled with Tailwind CSS based on the Google Search Engine UI. It utilizes Google's Programmable Search Engine API to fetch search results and display them in a user-friendly interface.
 
 ## Features
 
-- **Home Page**: The home page allows users to perform a searchs by entering a query. Additionally, users can click the "I'm feeling lucky" button to generate a random search word.
+- **Home Page**: The home page allows users to perform a search by entering a query. Additionally, users can click the "I'm feeling lucky" button to generate a random search word.
 - **Searched Results Page**: Displays topics (URLs/info) and images related to the entered query.
 - **Pagination**: Users can navigate through multiple pages of search results.
 - **Deployment**: The project is deployed on Vercel.
