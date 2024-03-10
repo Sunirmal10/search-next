@@ -1,4 +1,4 @@
-## Google Search Next - A Search Engine App
+## Google Search Next - A Search Engine Website
 Welcome to the Search Engine app project! This project is a search engine app built using Next.js and styled with Tailwind CSS based on the Google Search Engine UI. It utilizes Google's Programmable Search Engine API to fetch search results and display them in a user-friendly interface.
 
 ## Features
